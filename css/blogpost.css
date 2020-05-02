@@ -19,7 +19,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;*/
-  background: linear-gradient(to bottom ,  darkslategray 0%, #daa520 100%);
+  background: linear-gradient(to bottom ,  darkslategray 0%,#ff9900 100%);
   color: darkslategrey !important;
   text-align: center;
   border-bottom: 1px solid;
@@ -50,7 +50,7 @@ aside {
 /* default navigation values */
 nav {
   display: flex;
-  background: linear-gradient(to bottom , #daa520 0%, darkslategray 100%);
+  background: linear-gradient(to bottom , #ff9900 0%, darkslategray 100%);
   padding: 10px 0;
   color:darkslategrey;
 }
@@ -65,7 +65,7 @@ nav a {
 }
 nav a:hover {
   outline: 1px solid;
-  color: #daa520;
+  color: #ff9900;
   text-decoration: none;
 }
 
@@ -160,7 +160,7 @@ nav a:hover {
           border:1px solid gray; }
 
 /*li a {color: darkblue;}*/
-a {color:white;
+a {color:#ff9900;
 text-align:center;}
 li i{border:1px solid lightgray;}
 
