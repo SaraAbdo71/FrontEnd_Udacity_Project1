@@ -1,0 +1,153 @@
+html {
+  background-color: #deded8;
+  font-family: trebuchet, geneva, sans-serif;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+footer,
+header {
+  padding: 1.5rem;
+  box-sizing: border-box;
+}
+header {
+ 
+background: linear-gradient(to bottom, darkslategrey 0%, #daa520 100%);
+  color: #deded8;
+  text-align: center;
+  border-bottom: 1px solid;
+  height: 200px !important;
+}
+.headerstyle {
+  width: 148px;
+  height: 80px;
+  margin-right: 5px;
+  border: 1 solid darkslategrey;
+}
+.mySlides {
+  display: none;
+  width: 800%;
+  height: 250%;
+}
+aside {
+  background-color: darkslategrey!important;
+}
+/* Left images*/
+
+.imgthumb {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 470px;
+}
+
+.imgthumb:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+/* default navigation values */
+nav {
+  display: flex;
+  background: linear-gradient(to top, darkslategrey 0%, #daa520 100%);
+  padding: 10px 0;
+}
+
+nav a {
+  flex: auto;
+  text-align: center;
+  background: #ccc;
+  color: darkslategrey;
+  margin: 0 5px;
+  padding: 5px 0;
+  text-decoration: none;
+}
+nav a:hover {
+  outline: 1px solid #ccc;
+  color: #daa520;
+  background: black;
+
+  text-decoration: none;
+}
+.dive {
+  display: flex;
+  flex-direction: row !important;
+  text-align: justify;
+  justify-content: space-around;
+}
+div > img {
+  width: 90%;
+  height: 90%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+div > img:hover {
+  transform: scaleX(-1);
+}
+
+/*Right Tab */
+
+.mycolor {
+  color: white !important;
+  border: 1px solid lightgray;
+}
+
+.mycolor.active {
+  color: black;
+  background-color: white !important;
+  border: 1px solid gray;
+}
+
+/*li a {color: darkblue;}*/
+a {
+  color: darkslategrey;
+  text-align: center;
+}
+li i {
+  border: 1px solid lightgray;
+}
+
+li i.active {
+  border: 1px solid gray;
+}
+
+.tab-img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tab-img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.padd-ing {
+  padding: 15px;
+}
+
+/* larger screen */
+@media screen and (min-width: 30rem) {
+  body {
+    display: flex;
+    flex-direction: column;
+    max-width: 75rem;
+    margin: auto;
+  }
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    /* border-bottom: 0.5rem solid; */
+  }
+  nav,
+  header {
+    order: -1;
+  }
+  article {
+    flex: 75%;
+  }
+  aside {
+    flex: 25%;
+  }
+}

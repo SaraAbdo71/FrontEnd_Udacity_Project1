@@ -1,0 +1,174 @@
+html {
+  background-color:#ccc;
+  ;
+  font-family: trebuchet, geneva, sans-serif;
+  color:darkslategrey;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+footer,
+header {
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+header {
+ /* background-image: url("img/birds-group-group-of-birds-migration.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;*/
+  background: linear-gradient(to bottom ,  darkslategray 0%, #daa520 100%);
+  color: darkslategrey !important;
+  text-align: center;
+  border-bottom: 1px solid;
+  height: 200px!important;
+}
+.headerstyle{
+  
+width:148px;
+height: 80px;
+margin-right: 5px;border:1 solid darkslategrey
+}
+.mySlides {display:none;
+  width:800%;
+  height:250%;
+}
+.avatar {
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    padding:20px;
+    margin: 0px !important;
+    border-radius: 50%;
+  }
+aside {
+  background-color: darkslategray;
+}
+
+/* default navigation values */
+nav {
+  display: flex;
+  background: linear-gradient(to bottom , #daa520 0%, darkslategray 100%);
+  padding: 10px 0;
+  color:darkslategrey;
+}
+
+nav a {
+  flex: auto;
+  text-align: center;
+  margin: 0 5px;
+  padding: 5px 0;
+  text-decoration: none;
+  
+}
+nav a:hover {
+  outline: 1px solid;
+  color: #daa520;
+  text-decoration: none;
+}
+
+/* larger screen */
+@media screen and (min-width: 30rem) {
+  body {
+    display: flex;
+    flex-direction: column;
+    max-width: 75rem;
+    margin: auto;
+  }
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    border-bottom: 0.5rem solid;
+  }
+  nav,
+  header {
+    order: -1;
+  }
+  article {
+    flex: 75%;
+  }
+  aside {
+    flex: 25%;
+  }
+}
+/**************Body********/
+
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, [col] 150px);
+    grid-template-rows: repeat(2, [row] auto);
+    background-color: #fff;
+    color: #444;
+  }
+  
+  .box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+  }
+  
+  .box .box {
+    background-color: #ccc;
+    color: #ccc;
+  }
+  .e {
+    grid-column: 1 / 3;
+    grid-row: 1;
+  }
+  
+  .f {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  
+  .g {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  div> img{
+    width:50%;
+    height:50%;
+  }
+  p{
+    text-align: justify;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0 -10px;
+  }
+  nav li {
+      margin: 0 10px;
+  }
+  .push-right {
+    margin-left: auto;
+  }
+        /*Right Tab */
+                                   
+.mycolor {color:white!important;
+  border:1px solid lightgray;}
+                      
+.mycolor.active { color:black;
+          background-color:white !important;
+          border:1px solid gray; }
+
+/*li a {color: darkblue;}*/
+a {color:white;
+text-align:center;}
+li i{border:1px solid lightgray;}
+
+li i.active {border:1px solid gray;}                  
+
+.tab-img {border: 1px solid #ddd;
+  border-radius:4px;}
+
+.tab-img:hover {box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);}         
+
+.padd-ing {padding: 15px;}
