@@ -50,7 +50,7 @@ aside {
 /* default navigation values */
 nav {
   display: flex;
-  background: linear-gradient(to bottom , #daa520	 0%, darkslategray 100%);
+  background: linear-gradient(to bottom ,#daa520	 0%, darkslategray 100%);
   padding: 10px 0;
   color:darkslategrey;
 }
@@ -65,7 +65,7 @@ nav a {
 }
 nav a:hover {
   outline: 1px solid;
-  color: #ff9900;
+  color: #daa520;
   text-decoration: none;
 }
 
@@ -160,7 +160,7 @@ nav a:hover {
           border:1px solid gray; }
 
 /*li a {color: darkblue;}*/
-a {color:#ff9900;
+a {color:#daa520;
 text-align:center;}
 li i{border:1px solid lightgray;}
 

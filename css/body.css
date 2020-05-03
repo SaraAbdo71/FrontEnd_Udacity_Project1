@@ -7,13 +7,13 @@
     grid-auto-rows: auto; 
     
   }
+  
 article{
-  grid-column: span 4;
-  grid-row:span 2;
+  grid-column: span 5;
+  grid-row:span 1;
 }
 aside{
   grid-column: span 2;
-  margin-right: 20px;;
 }
 .mySlides {display:none;
   width:100%;

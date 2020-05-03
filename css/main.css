@@ -102,7 +102,7 @@ div > img:hover {
 
 /*li a {color: darkblue;}*/
 a {
-  color: #ff9900;
+  color: #daa520	;
   text-align: center;
 }
 li i {
@@ -138,7 +138,7 @@ li i.active {
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
-    border-bottom: 0.5rem solid ; 
+    border-bottom: 0.5rem solid darkslategrey; 
   }
   nav,
   header {
@@ -151,3 +151,17 @@ li i.active {
     flex: 25%;
   }
 }
+
+.button {
+  background-color: darkslategrey; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button4 {border-radius: 12px;}
